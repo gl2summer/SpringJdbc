@@ -1,0 +1,7 @@
+INSERT INTO department(dept_no,dept_name) VALUES("4001", "dept1");
+INSERT INTO department(dept_no,dept_name) VALUES("4002", "dept2");
+INSERT INTO department(dept_no,dept_name) VALUES("4003", "dept3");
+INSERT INTO department(dept_no,dept_name) VALUES("4004", "dept4");
+INSERT INTO department(dept_no,dept_name) VALUES("4005", "dept5");
+INSERT INTO department(dept_no,dept_name) VALUES("4006", "dept6");
+Select d.dept_id as id, d.dept_no, d.dept_name from department d;

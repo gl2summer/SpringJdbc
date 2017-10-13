@@ -27,4 +27,10 @@ public class Department {
 	public void setDeptNo(String deptNo) {
 		this.deptNo = deptNo;
 	}
+	public String getDeptName() {
+		return this.deptName;
+	}
+	public void setDeptName(String deptName) {
+		this.deptName = deptName;
+	}
 }
